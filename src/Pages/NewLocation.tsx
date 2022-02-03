@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { Caption, Description, SectionImage, SectionInfo, Title } from "../components";
-import img from "../img/city.webp";
 
 const BlackSectionInfo = styled(SectionInfo)`
     background-color: black;
@@ -76,7 +75,7 @@ const RightSide = () => (
 const LeftSide = () => (
     <SectionImage
         className="keen-slider__slide"
-        src={img}
+        src="images/city.webp"
     />
 );
 

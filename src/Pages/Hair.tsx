@@ -1,5 +1,4 @@
 import { Caption, Description, ReadMoreLink, SectionImage, SectionInfo, Title } from "../components";
-import img from "../img/hair.webp";
 
 const LeftSide = () => (
     <SectionInfo className="keen-slider__slide">
@@ -17,7 +16,7 @@ const LeftSide = () => (
 const RightSide = () => (
     <SectionImage
         className="keen-slider__slide"
-        src={img}
+        src="images/hair.webp"
     />
 );
 
